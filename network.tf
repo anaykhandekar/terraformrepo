@@ -6,3 +6,8 @@ module "vpc" {
   shared_vpc_host                        = false
   delete_default_internet_gateway_routes = false
 }
+
+
+output "test" {
+  value = "test_output"
+}
